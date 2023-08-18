@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-normal-regular: "Aeonik TRIAL";
+  --body-normal-medium: Aeonik;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --body-normal-regular-size: 1rem;
+  --body-small-2-medium-size: 0.88rem;
+  --old-note-text-semi-bold-size: 0.63rem;
+  --old-body-very-small-regular-size: 0.75rem;
+  --sub-header-h5-medium-size: 1.13rem;
+  --font-size-13xl: 2rem;
+  --header-h2-bold-size: 1.75rem;
+  --header-h1-bold-size: 2.25rem;
+
+  /* Colors */
+  --old-styles-main-background-color-only: #f9fafc;
+  --new-styles-shades-white: #fff;
+  --new-styles-text-body-dark: #515251;
+  --new-styles-secondary-strawberry: #ea4e4b;
+  --old-styles-secodary-color: #e4572e;
+  --new-styles-primary-mint: #d9ebcd;
+  --new-styles-text-body-normal: #8d8e8d;
+  --old-styles-light-text-color: #8b8b8b;
+  --pry-grey: #898989;
+  --sec-black: #2b2b2b;
+  --new-styles-text-heading: #292a29;
+  --old-styles-fail: #c92f02;
+  --new-styles-grays-outline: #e7e8e7;
+  --old-styles-form-outline-color: #e3e3e3;
+  --new-styles-grays-gray: #dddedd;
+  --color-gainsboro-100: #d9d9d9;
+  --new-styles-primary-mint-light: rgba(240, 247, 235, 0.5);
+  --old-styles-main-text-color: #444;
+  --new-styles-primary-eazi-green: #11453b;
+  --old-styles-part-paid: #01aa8c;
+  --eazipay-typo-neutral-lighten-2: #b9bbc0;
+  --new-styles-text-body-light: #b5b6b5;
+  --new-styles-sematics-error: #ef4444;
+  --new-styles-sematics-success: #219653;
+  --old-styles-primary-color: #0a244f;
+  --old-styles-scroll-color: #afafaf;
+
+  /* Gaps */
+  --gap-5xs: 0.5rem;
+  --gap-xs: 0.75rem;
+  --gap-base: 1rem;
+  --gap-5xl: 1.5rem;
+  --gap-29xl: 3rem;
+  --gap-81xl: 6.25rem;
+  --gap-3xs: 0.63rem;
+  --gap-4xs: 0.56rem;
+  --gap-12xs: 0.06rem;
+  --gap-13xl: 2rem;
+  --gap-9xs: 0.25rem;
+
+  /* Paddings */
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-2xs: 0.69rem;
+  --padding-29xl: 3rem;
+  --padding-9xs: 0.25rem;
+  --padding-3xs: 0.63rem;
+  --padding-6xs: 0.44rem;
+  --padding-13xl: 2rem;
+  --padding-xs: 0.75rem;
+  --padding-9xl: 1.75rem;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-81xl: 100px;
+  --br-11xs: 2px;
+  --br-5xs: 8px;
+  --br-5xl: 24px;
+  --br-xs: 12px;
+
+  /* Effects */
+  --elevations-light-mode-light-5: 0px 20px 48px rgba(170, 170, 170, 0.29);
+  --nav-border-shadow: 4px 0px 25px rgba(170, 170, 170, 0.08);
+  --light-mode-shadow-md: 0px 9px 18px rgba(170, 170, 170, 0.15);
+  --elevations-light-mode-light-2: 0px 6px 12px rgba(170, 170, 170, 0.11);
+  --elevations-dark-mode-dark-2: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
